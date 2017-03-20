@@ -39,6 +39,7 @@ h1, h2, h3, figcaption {
     text-align: center;
     margin: auto;
     text-shadow: 1px 1px 1px #838383;
+    font-family: 'Lato', sans-serif;
 }
 
 h1 {
@@ -49,20 +50,22 @@ h1 {
     padding: 20px 0px 20px 0px;
     width: 900px;
     font-size: 55px;
-    color: #282969;
+    color: #2F6E8E;
+    font-weight: 700;
+    text-shadow: 1px 1px 80px #BAC2C6;
+
 
 }
 
 h2 {
     font-size: 40px;
-    /*position: absolute;
-    top: 125px;
-    left: 0;*/
     width: 100%;
+    font-weight: 700;
 }
 
 h3 {
     min-width: 900px;
+    font-weight: 400;
 }
 
 figcaption {
@@ -85,6 +88,8 @@ p {
     padding: 10px 65px 10px 65px;
     text-indent: 1em;
     font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
 }
 
 header ul {
