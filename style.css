@@ -1,0 +1,147 @@
+/* CONTENT AREAS */
+body {
+    background-color: #dfe3e5;
+}
+
+section {
+    background-color: #fff;
+    width: 900px;
+    padding: 10px 10px 10px 10px;
+    margin: 0px auto 20px auto;
+    box-shadow: 5px;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 1px 3px 5px #afafaf;
+}
+
+header {
+    width: 100%%;
+    background-color: #515151;
+    padding-top: 20px;
+    height: 300px;
+    box-shadow: 1px 5px 5px #afafaf;
+    background-image: url("img/header.jpg");
+    background-size: cover;
+}
+
+figure {
+    width: 100%;
+    overflow: hidden;
+    background-color: #004c09;
+    height: 300px;
+    margin: auto;
+    position: relative;
+}
+
+
+/* CONTENT ELEMENTS */
+h1, h2, h3, figcaption {
+    color: #f4fcf5;
+    text-align: center;
+    margin: auto;
+    text-shadow: 1px 1px 1px #838383;
+}
+
+h1 {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 20px 0px 20px 0px;
+    width: 900px;
+    font-size: 55px;
+    color: #282969;
+
+}
+
+h2 {
+    font-size: 40px;
+    /*position: absolute;
+    top: 125px;
+    left: 0;*/
+    width: 100%;
+}
+
+h3 {
+    min-width: 900px;
+}
+
+figcaption {
+    font-size: 14px;
+    position: absolute;
+    top: 130px;
+    left: 0;
+    width: 100%;
+}
+
+
+
+figure img {
+    position: relative;
+   width: 100%;
+
+}
+
+p {
+    padding: 10px 65px 10px 65px;
+    text-indent: 1em;
+    font-size: 18px;
+}
+
+header ul {
+    text-align: center;
+    list-style-type: none;
+    display: block;
+    width: 900px;
+    margin: 25px auto 0px auto;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.25);
+    min-width: 900px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+header ul li{
+    display: inline;
+}
+
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+}
+
+header ul li:hover{
+    background-color: #fff;
+}
+
+header ul li a:hover{
+    color: #000;
+    background-color: #fff;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+
+footer {
+    margin: 40px auto 0px auto;
+    background-color: #282969;
+    padding: 10px 0px 30px 0px;
+    width: 950px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+footer ul {
+    margin: 20px 0px 0px 60px;
+    display: inline-block;
+    width: 369px;
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer ul li a:hover {
+    color: #50A6FF;
+}
